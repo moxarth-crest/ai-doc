@@ -10,7 +10,7 @@ AIDoc uses **Cerebras LLM** (via LlamaIndex) to scan a repository, understand it
 
 - **Smart Documentation Generation** — Analyzes your codebase and produces a structured Markdown document with sections that actually matter to your project.
 - **Three Interfaces** — CLI, Streamlit Web UI, and an interactive Chat mode.
-- **Git URL Support** — Point it at a GitHub, GitLab, or Bitbucket repo URL and it will clone and document it. Private repos are supported via `GITHUB_TOKEN`.
+- **Git URL Support** — Point it at a GitHub repo URL and it will clone and document it. Private repos are supported via `GITHUB_TOKEN`.
 - **Targeted Documentation** — Generate focused docs for a specific directory or file (e.g., `src/auth/` or `core/payment.py`).
 - **Reference Style Matching** — Provide an existing doc as a reference and AIDoc will match its tone, structure, and formatting.
 - **Quality Evaluation** — Built-in evaluator scores the generated documentation for coverage, correctness, clarity, completeness, and usefulness.
